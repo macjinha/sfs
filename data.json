@@ -1,0 +1,16 @@
+{
+    "company": {
+      "brand": "Название бренда",
+      "ul": "ИП / ООО",
+      "city": "г. Город",
+      "inn": "1111111111",
+      "ogrn" : "1111111111111",
+      "phone": "+79990000000",
+      "email": "example@example.com"
+    },
+    "priceList": "https://example.com",
+  "objects": [
+    { "address": "Адрес", "phone": "+79990000000" },
+    { "address": "Адрес", "phone": "+79990000000" }
+  ]
+}

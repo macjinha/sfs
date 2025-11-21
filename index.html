@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Сфера услуг</title>
+  <link rel="stylesheet" href="style.css" />
+  <!--<link rel="icon" href="logo/logo.png" type="image/png" />-->
+  <meta name="theme-color" content="#1f1f1f" />
+<script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="hero" id="home" role="banner">
+
+    <div class="hero-inner">
+      <h1 class="brand">
+        <span class="company-brand"></span>
+      </h1>
+      <p class="info">
+        <span class="city address"></span>
+      </p>
+      <div class="actions">
+        <a id="price-list" class="button" href="/price.pdf" aria-label="Открыть прайс-лист">Прайс-лист</a>
+        <a class="button" href="example.com" target="_blank" rel="noopener">Кнопка 1</a>
+        <a class="button" href="example.com" target="_blank" rel="noopener">Кнопка 2</a>
+      </div>
+    </div>
+    <div class="scroll-down" aria-label="Листать вниз"></div>
+
+  </header>
+
+  <main>
+    <section class="container" id="objects">
+      <h2 class="section-title">Адреса и контакты</h2>
+      <table class="table" role="table" aria-label="Адреса и телефоны">
+        <thead>
+          <tr>
+            <th scope="col">Адрес</th>
+            <th scope="col">Телефон</th>
+            <th scope="col">Позвонить</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Заполняется из data.json -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+<footer role="contentinfo">
+  <div class="footer-container">
+    <div class="footer-left">
+
+      <p class="info">
+        Адрес: <span class="city"></span>
+      </p>
+
+      <p class="info">
+        ИНН: <span class="inn"></span>
+      </p>
+
+      <p class="info">
+        ОГРН: <span class="ogrn"></span>
+      </p>
+
+      <p class="info">
+        Телефон:
+        <span class="phone"></span>
+      </p>
+
+      <p class="info">
+        Email: <a class="email"></a>
+      </p>
+
+      <p class="copyright">
+        &copy; <span id="year"></span>
+      </p>
+      <p>Шаблон сайта <a href="https://github.com/macjinha/sfs">доступен бесплатно</a> с сохранением указания авторства</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
